@@ -1,0 +1,388 @@
+.description,
+.title {
+	font-family: 'Exo 2', sans-serif;
+	text-align: center
+}
+
+.containerContact,
+.description,
+.title,
+.workContainer,
+.workContainer>i,
+.workContainer>p,
+label {
+	text-align: center
+}
+
+.left-svg,
+.right-svg {
+	position: relative;
+	bottom: -2px
+}
+
+* {
+	margin: 0;
+	padding: 0
+}
+
+.headerImage {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh
+}
+
+.v-shape {
+	-webkit-clip-path: polygon(50% 0, 100% 0, 100% 88%, 50% 99%, 0 88%, 0 0);
+	clip-path: polygon(50% 0, 100% 0, 100% 88%, 50% 99%, 0 88%, 0 0)
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+	top: 50%;
+	position: relative
+}
+
+.description {
+	color: #d3d3d3;
+	font-size: 24px
+}
+
+.title {
+	color: #fff;
+	font-size: 50px;
+	padding-top: 150px
+}
+
+.socialMediaIcons {
+	margin: auto;
+	width: 200px;
+	padding-top: 20px
+}
+
+.socialMediaIcons>a {
+	padding-right: 16px;
+	color: #d3d3d3;
+	text-decoration: none;
+	transition: color .3s;
+	font-size: 20px
+}
+
+.socialMediaIcons>a:hover {
+	color: #ff4500
+}
+
+.socialMediaIcons>a>i:hover {
+	animation: fa-spin .3s infinite linear
+}
+
+@-webkit-keyframes fa-spin {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg)
+	}
+}
+
+@keyframes fa-spin {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg)
+	}
+}
+
+@-moz-keyframes bounce {
+	0%,
+	100%,
+	20%,
+	50%,
+	80% {
+		-moz-transform: translateY(0);
+		transform: translateY(0)
+	}
+	40% {
+		-moz-transform: translateY(-30px);
+		transform: translateY(-30px)
+	}
+	60% {
+		-moz-transform: translateY(-15px);
+		transform: translateY(-15px)
+	}
+}
+
+@-webkit-keyframes bounce {
+	0%,
+	100%,
+	20%,
+	50%,
+	80% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		transform: translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		transform: translateY(-15px)
+	}
+}
+
+@keyframes bounce {
+	0%,
+	100%,
+	20%,
+	50%,
+	80% {
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
+	}
+	40% {
+		-moz-transform: translateY(-30px);
+		-ms-transform: translateY(-30px);
+		-webkit-transform: translateY(-30px);
+		transform: translateY(-30px)
+	}
+	60% {
+		-moz-transform: translateY(-15px);
+		-ms-transform: translateY(-15px);
+		-webkit-transform: translateY(-15px);
+		transform: translateY(-15px)
+	}
+}
+
+.arrowButtonContainer {
+	width: 50px;
+	margin: 120px auto auto
+}
+
+.fas.fa-angle-down.sageataJos {
+	color: #fff;
+	font-size: 40px
+}
+
+.fas.fa-angle-down.sageataJos:hover {
+	moz-animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite
+}
+
+.AboutMe {
+	height: 100%;
+	font-family: Tienne, serif;
+	font-size: 16px;
+	padding-top: 20px;
+	padding-bottom: 80px
+}
+
+.text-pg2,
+.workContainer {
+	font-family: 'Hind Madurai', sans-serif
+}
+
+@media (max-width:500px) {
+	.text-pg2 {
+		margin-top: 0
+	}
+}
+
+.photo {
+	width: 90%;
+	height: auto;
+	margin: 70px auto auto;
+	display: block;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19)
+}
+
+.imgContainer,
+.ourWork {
+	width: 100%
+}
+
+.portofolioPhoto {
+	min-height: 100%
+}
+
+.nopadding {
+	padding: 0!important
+}
+
+.text-pg2 {
+	margin: 100px 70px auto 60px;
+	color: grey;
+	font-size: 13px
+}
+
+.ourWork {
+	height: 100%;
+	margin: auto;
+	padding-top: 70px;
+	background: #f2f2f3
+}
+
+.text-center>h3 {
+	margin: auto;
+	font-size: 18px
+}
+
+.workContainer {
+	padding-top: 20px;
+	font-size: 1vw;
+	margin: auto
+}
+
+.workContainer>i {
+	padding-top: 50px;
+	font-size: 35px;
+	padding-bottom: 40px
+}
+
+.workContainer>p {
+	color: #a0a0a0;
+	font-size: 15px
+}
+
+.ourWork>h3 {
+	padding-top: 60px;
+	font-family: Teko, sans-serif;
+	font-size: 38px
+}
+
+.containerPortofolio {
+	height: 100%;
+	background: 0 0;
+	margin: auto;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 70px
+}
+
+.containerPortofolio.v-shapeUp.h3 {
+	font-family: 'Exo 2', sans-serif
+}
+
+form {
+	margin: 0 auto;
+	width: 400px;
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em
+}
+
+form div+div {
+	margin-top: 1em
+}
+
+label {
+	display: inline-block;
+	width: 90px;
+	height: 30px
+}
+
+.formInput {
+	height: 22px
+}
+
+input,
+textarea {
+	font: 1em sans-serif;
+	width: 300px;
+	box-sizing: border-box;
+	border: 1px solid #fff0f5;
+	padding-left: 5px
+}
+
+input:focus,
+textarea:focus {
+	border-color: #000
+}
+
+textarea {
+	vertical-align: top;
+	height: 5em
+}
+
+.containerContact {
+	height: 100%;
+	width: 100%;
+	padding: 40px 80px 80px;
+	background: #f2f2f3;
+	font-size: 15px
+}
+
+.containerContact>p {
+	color: #a9a9a9;
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 15px;
+	width: 45%;
+	margin: 0 auto 50px
+}
+
+.containerContact>h3 {
+	text-align: center;
+	padding-bottom: 40px
+}
+
+.contactButton:hover {
+	background-color: #a0a0a0
+}
+
+.contactButton {
+	width: 175px;
+	height: 50px;
+	border: none;
+	background-color: #000;
+	color: #fff;
+	font-family: Cuprum
+}
+
+.contact-page>label {
+	font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.right-svg {
+	float: right
+}
+
+.svgGrey {
+	fill: #f2f2f3
+}
+
+.svgWhite {
+	fill: #fff
+}
+
+.containerCopyright {
+	height: 30vh;
+	width: 100%;
+	padding: 40px 80px 80px;
+	background: #000
+}
+
+.copyrightP {
+	font-family: Exo2, sans-serif;
+	color: #f2f2f3;
+	font-size: 14px
+}
+
+.wholePage {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #fff
+}
